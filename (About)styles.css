@@ -1,0 +1,77 @@
+#background{
+    background-image: url(about.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+li p a{
+    
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    list-style: none;
+    display: inline-block;
+    margin: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin-right: 3%;
+    text-decoration: none;
+    transform: translateY(-1cm);
+    transition: 3ms;
+    
+}
+li p a:hover{
+    color: rgb(128, 82, 172);
+}
+h2{
+    font-size: 20pt;
+    font-family: sans-serif;
+    transform: translate(5cm,1cm);
+    color: white;
+   font-weight: bolder;
+   
+}
+
+h3{
+    font-size: 17pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(5cm,2cm);
+    color: white;
+   font-weight: bolder;
+   text-align: left;
+   word-wrap: normal;
+}
+
+
+
+body{
+    overflow: hidden;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    display: inline-block;
+    position: right;transform: translate(42cm,-3.7cm);
+}
+h4:hover{
+    color: rgb(128, 82, 172);
+}
+
+#video{
+    width: 20px;
+    border-radius: 50%;
+    width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 20px 5px rgba(0, 123, 255, 0.7);
+}
